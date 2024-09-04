@@ -1,0 +1,2 @@
+# AgriSynth Landing Page
+This is the landing page for the AgriSynth project. The AgriSynth project is a project for the course Design of Software Engineering Experiments in Universidad Peruana de Ciencias Aplicadas (UPC). The project is about creating a software that helps farmers to manage their crops and their production. The software will have a web interface and a mobile interface.
