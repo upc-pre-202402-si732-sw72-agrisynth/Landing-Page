@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    padding-bottom: 1rem;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar {
+    background-color: #012b29 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ecb42d;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-brand {
+    color: #ecb42d;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    max-width: 50rem;
+    height: 30rem;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-collapse {
+        display: none;
+    }
+}
+
+#home {
+    background: url("images/Home-image.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#home .container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#about .vision-mission {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+#about .vision-mission .container {
+    padding: 0 15px;
+}
+
+#about .vision-mission .section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#about .vision-mission .section-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0;
+}
+
+#about .vision-mission .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#services {
+    background: #ffffff;
+    padding: 50px 0;
+}
+
+#services h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#services .lead {
+    color: #555;
+    margin-bottom: 50px;
+}
+
+#services h5 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#services p {
+    color: #666;
+}
+
+#services img {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+    #services .img-fluid {
+        max-width: 80%;
+        margin-top: -50px;
+    }
+}
+
+#contact .bg-dark {
+    background-color: #012b29 !important;
+}
+
+#contact .text-white {
+    color: #f1b22a !important;
+}
+
+#contact .form-label {
+    color: #f1b22a !important;
+}
+
+#contact .form-control {
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    color: #333;
+}
+
+#contact .form-control:focus {
+    border-color: #f1b22a;
+    box-shadow: 0 0 0 0.2rem rgba(241, 178, 42, 0.25);
+}
+
+#contact .btn-primary {
+    background-color: #f1b22a;
+    border-color: #f1b22a;
+    color: #012b29;
+}
+
+#contact .btn-primary:hover,
+#contact .btn-primary:focus {
+    background-color: #e8a022;
+    border-color: #e8a022;
+    color: #012b29;
+}
+
+#subscription-plans .subscription-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+#subscription-plans .subscription-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#subscription-plans .card-header {
+    background: #012b29;
+    color: #f1b22a;
+}
+
+#subscription-plans .card-body {
+    padding: 2rem;
+}
+
+#subscription-plans .price {
+    font-size: 2rem;
+    color: #012b29;
+    background-color: #f1b22a;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+#subscription-plans .card-footer {
+    background-color: transparent;
+    border-top: none;
+}
+
+#subscription-plans .btn-primary {
+    color: #012b29;
+    background-color: #f1b22a;
+    border-color: #f1b22a;
+}
+
+#subscription-plans .btn-primary:hover {
+    background-color: #e8a022;
+    border-color: #e8a022;
+}
+
+@media (max-width: 768px) {
+    #subscription-plans .subscription-card {
+        margin-bottom: 2rem;
+    }
+}
+
+footer {
+    background-color: #012b29;
+    color: #f1b22a;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #f1b22a;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.LogFooter {
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+}
+
+footer hr {
+    border-color: #f1b22a;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.iconosFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.LogFooter {
+    width: 60px;
+    display: inline-block;
+    color: #fff;
+    justify-content: space-evenly;
+    padding: 15px 10px;
+}
+
+hr {
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+}
